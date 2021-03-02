@@ -1,0 +1,22 @@
+CRITICAL - 2021-03-02 11:45:04 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl, intl, mbs...')
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\spark(53): require('C:\\Users\\fredo\\...')
+#4 {main}
+CRITICAL - 2021-03-02 11:45:04 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CLI\CLI.php:880
+Stack trace:
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CLI\CLI.php(163): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CLI\CLI.php(1180): CodeIgniter\CLI\CLI::init()
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\Autoloader\Autoloader.php(294): include_once('C:\\Users\\fredo\\...')
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\fredo\\...')
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\CLI...')
+#5 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Views\errors\cli\error_exception.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\CLI...')
+#6 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Views\errors\cli\production.php(5): include('C:\\Users\\fredo\\...')
+#7 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\Debug\Exceptions.php(281): include('C:\\Users\\fredo\\...')
+#8 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\FrameworkException), 500)
+#9 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#10 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
