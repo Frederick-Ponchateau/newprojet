@@ -20,3 +20,41 @@ Stack trace:
   thrown
 #0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
 #1 {main}
+CRITICAL - 2021-03-02 10:22:55 --> Undefined variable: validation
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Views\Register.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\fredo\\...', 19, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\View\View.php(220): include('C:\\Users\\fredo\\...')
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\Common.php(1217): CodeIgniter\View\View->render('register', Array, true)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Register.php(20): view('register', Array)
+#5 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Register->index()
+#6 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#7 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-03-02 12:59:27 --> mysqli_sql_exception: Champ 'email' inconnu dans where clause in C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Login.php(42): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Login->connect()
+#8 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-03-02 12:59:27 --> Champ 'email' inconnu dans where clause
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Login.php(42): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Login->connect()
+#8 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
