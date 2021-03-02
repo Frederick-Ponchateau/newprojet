@@ -33,29 +33,32 @@ class Login extends BaseController
 		  if($this->validate($rules)){
 			  echo "je s8 la";
 			  $userModel = new UserModel();
-			  $data = [
-				  'userEmail'    => $this->request->getVar('email'),
-				  
-			  ];
+			 
 			 // $model->find($data);
-			  $users = $userModel->where('userEmail',$data["userEmail"])
+			  $tabUsers = $userModel->where('userEmail',$this->request->getVar('email'))
                    ->findAll();
-				   var_dump($data);
-				   var_dump($users);
+				   foreach($tabUsers as $user){
+					   var_dump($user);
+					  if(password_verify($this->request->getVar('password'),$user['userPassword'])){
+						var_dump($user['userId']);
+						return $user['userId'];				
+					  } 
+				   }
+				   
 			  // return redirect()->to('/login');
 			}
-		//   }else{
+		 
 			  
-		// 	  $data = [
-		// 		  'page_title' => 'Register à wwww.site.com' ,
-		// 		  'aff_menu'  => false,
-		// 		  'validation' => $this->validator
-		// 	  ];
+			  $data = [
+				  'page_title' => 'Register à wwww.site.com' ,
+				  'aff_menu'  => false,
+				  'validation' => $this->validator
+			  ];
 	  
-		// 	  echo view('common/HeaderAdmin' , 	$data);
-		// 	  echo view('register', $data);
-		// 	  echo view('common/FooterSite');
-		//   }
+			  echo view('common/HeaderAdmin' , 	$data);
+			  echo view('register', $data);
+			  echo view('common/FooterSite');
+		  
 
 
 	}
