@@ -35,15 +35,10 @@ class BaseController extends Controller
 		$this->session = \Config\Services::session();
 		$this->session->start();  
 	}
-	public function bypass(){
+	public function bypass($url){
 		if(!$this->session->get('id')){
-
-
-		}
-
-
-
-
+			return redirect()->to($url);
+		}	
 	}
 
 	/**

@@ -37,6 +37,7 @@ class Login extends BaseController
 					  if(password_verify($this->request->getVar('password'),$user['userPassword'])){
 					
 							$this->session->set(['id'=> $user["userId"]]);	
+							var_dump($this->session->get('id'));
 							 return redirect()->to('/admin/accueil');
 								
 					  } 

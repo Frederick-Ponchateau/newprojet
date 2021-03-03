@@ -21,7 +21,7 @@
                                 <li tabindex="0"><a class="grey-text text-darken-2" href="app-contacts.html">Contacts</a></li>
                                 <li tabindex="0"><a class="grey-text text-darken-2" href="page-faq.html">FAQ</a></li>
                                 <li class="divider" tabindex="-1"></li>
-                                <li tabindex="0"><a class="grey-text text-darken-2" href="user-login.html">Logout</a></li>
+                                <li tabindex="0"><a class="grey-text text-darken-2" href="Accueil/logout">Logout</a></li>
                             </ul>
                         </div>
                     </div>
