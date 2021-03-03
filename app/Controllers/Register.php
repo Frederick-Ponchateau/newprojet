@@ -42,10 +42,13 @@ class Register extends Controller
         }
          
     }
-    private function affichageFormLogin($page_title="",$aff_menu=0,$validation=null){
+    /**********************************************
+     * * Funtion permettant affichage de ma page 
+     **********************************************/
+    private function affichageFormLogin($page_title="",$aff_menu=false,$validation=null){
 
         $data = [
-            '$page_title' => $page_title ,
+            'page_title' => $page_title ,
             'aff_menu'  => $aff_menu,
             'validation' => $validation
         ];
