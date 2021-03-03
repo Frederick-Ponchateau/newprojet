@@ -3,14 +3,14 @@
 use CodeIgniter\Controller;
 use App\Models\UserModel;
  
-class Register extends Controller
+class Register extends BaseController
 {
 
     
     public function index()
     {
         //include helper form
-        helper('form');
+       // helper('form');
         
         $this->affichageFormLogin('Register à wwww.site.com',false);      
     }
@@ -18,7 +18,7 @@ class Register extends Controller
     public function save()
     {
         //include helper form
-        helper('form');
+       // helper('form');
         //set rules validation form
         $rules = [
             'name'          => 'required|min_length[3]|max_length[20]',
