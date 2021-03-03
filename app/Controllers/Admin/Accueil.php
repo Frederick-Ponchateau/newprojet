@@ -3,12 +3,24 @@
 namespace App\Controllers\Admin;
 
 use CodeIgniter\Controller;
+use App\Models\UserModel;
+use App\Controllers\BaseController;
 
-class Accueil extends Controller
+
+
+
+class Accueil extends BaseController
 {
-	public function index()
-	{	
 
+	
+
+
+	
+		
+		//return redirect()->to('/login');
+		
+	public function index()
+	{			
 		/** exemple de passage de variable a une vue */ 
 		$data = [
 			'page_title' => 'Connexion à wwww.site.com' ,

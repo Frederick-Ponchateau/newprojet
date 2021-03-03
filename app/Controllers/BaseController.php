@@ -31,7 +31,19 @@ class BaseController extends Controller
 
 	public function __construct(){
 
-    	helper(['form', 'validation']);     
+    	helper(['form', 'validation']);   
+		$this->session = \Config\Services::session();
+		$this->session->start();  
+	}
+	public function bypass(){
+		if(!$this->session->get('id')){
+
+
+		}
+
+
+
+
 	}
 
 	/**
@@ -41,6 +53,7 @@ class BaseController extends Controller
 	 * @param ResponseInterface $response
 	 * @param LoggerInterface   $logger
 	 */
+
 	public function initController(RequestInterface $request, ResponseInterface $response, LoggerInterface $logger)
 	{
 		// Do Not Edit This Line
@@ -49,6 +62,6 @@ class BaseController extends Controller
 		//--------------------------------------------------------------------
 		// Preload any models, libraries, etc, here.
 		//--------------------------------------------------------------------
-		// E.g.: $this->session = \Config\Services::session();
+		
 	}
 }

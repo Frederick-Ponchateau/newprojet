@@ -9,14 +9,8 @@ class Login extends BaseController
 	{	
 
 		/** exemple de passage de variable a une vue */ 
-		$data = [
-			'page_title' => 'Connexion à wwww.site.com' ,
-			'aff_menu'  => false
-		];
-
-		echo view('common/HeaderAdmin' , 	$data);
-		echo view('Site/Login');
-		echo view('common/FooterSite');
+		$this->aff_form_log('Connexion à wwww.site.com' ,false);
+		
 	}
 	public function connect()
 	{
@@ -31,44 +25,38 @@ class Login extends BaseController
 		  ];
 		   
 		  if($this->validate($rules)){
-			  echo "je s8 la";
+			 
 			  $userModel = new UserModel();
 			 
 			 // $model->find($data);
 			  $tabUsers = $userModel->where('userEmail',$this->request->getVar('email'))
                    ->findAll();
-				   foreach($tabUsers as $user){
-					   var_dump($user);
+				   foreach($tabUsers as $key=>$user){
+
+
 					  if(password_verify($this->request->getVar('password'),$user['userPassword'])){
-						
-						$_SESSION['userId'] = $user['userId'];	
-									
+					
+							$this->session->set(['id'=> $user["userId"]]);	
+							 return redirect()->to('/admin/accueil');
+								
 					  } 
 				   }
-				   $newuser = [
-					'username'  => 'johndoe',
-					'email'     => 'johndoe@some-site.com',
-					'logged_in' => TRUE
-			];
-			
-			$session->set('userId');
-				   dd($session);
-			   //return redirect()->to('/login');
+				   				 
 			}
 		 
-			  
-			  $data = [
-				  'page_title' => 'Register à wwww.site.com' ,
-				  'aff_menu'  => false,
-				  'validation' => $this->validator
-			  ];
-	  
-			  echo view('common/HeaderAdmin' , 	$data);
-			  echo view('site/login', $data);
-			  echo view('common/FooterSite');
-		  
-
+			  $this->aff_form_log('Register à wwww.site.com' ,false,$this->validator);
 
 	}
+	private function aff_form_log($page_title="",$aff_menu=false,$validation=null){
+		$data = [
+			'page_title' => $page_title ,
+			'aff_menu'  => $aff_menu,
+			'validation' => $validation
+		];
 
+		echo view('common/HeaderAdmin' , 	$data);
+		echo view('site/login', $data);
+		echo view('common/FooterSite');
+
+	}
 }
