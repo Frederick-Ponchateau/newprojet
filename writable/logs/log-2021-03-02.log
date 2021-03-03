@@ -58,3 +58,47 @@ CRITICAL - 2021-03-02 12:59:27 --> Champ 'email' inconnu dans where clause
 #9 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #10 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
 #11 {main}
+CRITICAL - 2021-03-02 13:52:16 --> Invalid file: site.php
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('site.php')
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\Common.php(1217): CodeIgniter\View\View->render('site', Array, true)
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Login.php(59): view('site', Array)
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Login->connect()
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-02 14:10:31 --> Undefined variable: _SESSION
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Login.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\fredo\\...', 48, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Login->connect()
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-02 14:13:59 --> Undefined variable: session
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Login.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\fredo\\...', 54, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Login->connect()
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-02 14:24:59 --> Undefined variable: session
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Login.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\fredo\\...', 54, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Login->connect()
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-02 14:25:04 --> Undefined variable: session
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Login.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\fredo\\...', 54, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Login->connect()
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-02 14:25:57 --> Undefined variable: ci_session
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Login.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\fredo\\...', 54, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Login->connect()
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

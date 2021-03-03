@@ -40,12 +40,20 @@ class Login extends BaseController
 				   foreach($tabUsers as $user){
 					   var_dump($user);
 					  if(password_verify($this->request->getVar('password'),$user['userPassword'])){
-						var_dump($user['userId']);
-						return $user['userId'];				
+						
+						$_SESSION['userId'] = $user['userId'];	
+									
 					  } 
 				   }
-				   
-			  // return redirect()->to('/login');
+				   $newuser = [
+					'username'  => 'johndoe',
+					'email'     => 'johndoe@some-site.com',
+					'logged_in' => TRUE
+			];
+			
+			$session->set('userId');
+				   dd($session);
+			   //return redirect()->to('/login');
 			}
 		 
 			  
@@ -56,7 +64,7 @@ class Login extends BaseController
 			  ];
 	  
 			  echo view('common/HeaderAdmin' , 	$data);
-			  echo view('register', $data);
+			  echo view('site/login', $data);
 			  echo view('common/FooterSite');
 		  
 
