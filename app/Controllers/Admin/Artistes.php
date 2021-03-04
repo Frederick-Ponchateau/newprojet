@@ -38,12 +38,33 @@ class Artistes extends BaseController
 
     }
     public function edit($id=null){
-         
-        $artiste = $this->artistesModels->where('id', $id)->first();
         /*********Je controle si je viens du formulaire ******/
         if(!empty($this->request->getVar('save'))){
-
+            $save = $this->request->getVar('save');
+            if($save == "update"){
+                $rules = [
+                    'nom'          => 'required|min_length[3]|max_length[20]',
+                    'prenom'         => 'required|min_length[3]|max_length[20]',
+                    'annee'      => 'required'
+                ];
+                /**************** Je controle si les informations posté son corecte ***********************
+                 **************** Pour nom la longueur minimal est de 3 et la longueur maximal est de 20 caractère requit */
+                if($this->validate($rules)){
+                    
+                    $data = [
+                        'nom'     => $this->request->getVar('nom'),
+                        'prenom'    => $this->request->getVar('prenom'),
+                        'annee_naissance' => $this->request->getVar('annee')
+                    ];
+                    $this->artistesModels->where('id',$id)
+                    ->set($data)
+                    ->update();
+                    
+                }
+                // return redirect()->to('/');
+            }           
         }
+        $artiste = $this->artistesModels->where('id', $id)->first();
        // dd($artiste);
        $data = [
         'page_title' => 'Admin > Artiste Edit' ,

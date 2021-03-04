@@ -16,11 +16,18 @@
                                         <div class="card-content">
                                             <h4 class="card-title">Form with validation</h4>
                                             <form action="<?= base_url('admin/artistes/edit/'.$artiste['id'])  ?>" method= "Post">
-                                                
+                                                <!-- Je cache mon champ(hidden) pour dire que je suis dans le mode modifier -->
+                                                <!-- je modifie -->
+                                                <?php if(isset($artiste["id"])){   ?>
+                                                <input type="hidden" value="update" name='save'>
+                                                <?php }else{ ?>
+                                                <!-- Je cr un nouvelle enregistrement -->
+                                                <input type="hidden" value="create" name='save'>
+                                                <?php } ?>
                                                 <div class="row">
                                                     <div class="input-field col s12">
                                                         <i class="material-icons prefix">account_circle</i>
-                                                        <input id="name" type="text" name="name" value="<?= $artiste["nom"]?>" class="validate">
+                                                        <input id="name" type="text" name="nom" value="<?= $artiste["nom"]?>" class="validate">
                                                         <label for="name">Name</label>
                                                     </div>
                                                 </div>
@@ -34,7 +41,7 @@
                                                 <div class="row">
                                                     <div class="input-field col s12">
                                                         <i class="material-icons prefix">lock_outline</i>
-                                                        <input id= "annee" value= "<?= $artiste["annee_naissance"]?>" name="anne" type="number" class="validate">
+                                                        <input id= "annee" value= "<?= $artiste["annee_naissance"]?>" name="annee" type="number" class="validate">
                                                         <label for="annee">Anne naissance</label>
                                                     </div>
                                                 </div>
