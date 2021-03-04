@@ -8,7 +8,10 @@ use App\Controllers\BaseController;
 
 class Artistes extends BaseController
 {
+    public function __construct(){
+        $artistes = new ArtisteModel();
 
+    }
 	public function index(){
 
         /*********************************************
