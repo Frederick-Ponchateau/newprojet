@@ -3,14 +3,14 @@
 namespace App\Controllers\Admin;
 
 use CodeIgniter\Controller;
-use App\Models\ArtisteModel;
+use App\Models\ArtistesModel;
 use App\Controllers\BaseController;
 
 class Artistes extends BaseController
 {
     public $artistesModels = null;
     public function __construct(){
-        $this->artistesModels = new ArtisteModel();
+        $this->artistesModels = new ArtistesModel();
     }
 	public function index(){
 
