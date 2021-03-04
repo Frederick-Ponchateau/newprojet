@@ -41,7 +41,6 @@ class Artistes extends BaseController
         /*********Je controle si je viens du formulaire ******/
         if(!empty($this->request->getVar('save'))){
             $save = $this->request->getVar('save');
-            if($save == "update"){
                 $rules = [
                     'nom'          => 'required|min_length[3]|max_length[20]',
                     'prenom'         => 'required|min_length[3]|max_length[20]',
@@ -51,18 +50,20 @@ class Artistes extends BaseController
                  **************** Pour nom la longueur minimal est de 3 et la longueur maximal est de 20 caractère requit */
                 if($this->validate($rules)){
                     
-                    $data = [
+                    $data_save = [
                         'nom'     => $this->request->getVar('nom'),
                         'prenom'    => $this->request->getVar('prenom'),
                         'annee_naissance' => $this->request->getVar('annee')
                     ];
-                    $this->artistesModels->where('id',$id)
-                    ->set($data)
-                    ->update();
-                    
+                    if($save == 'update'){
+                        $this->artistesModels->where('id',$id)
+                        ->set($data_save)
+                        ->update();
+                    }else{
+                        $this->artistesModels->save($data_save);
+                    }           
                 }
                 // return redirect()->to('/');
-            }           
         }
         $artiste = $this->artistesModels->where('id', $id)->first();
        // dd($artiste);
