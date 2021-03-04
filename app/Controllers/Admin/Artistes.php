@@ -8,12 +8,14 @@ use App\Controllers\BaseController;
 
 class Artistes extends BaseController
 {
+    public $artistesModels = null;
     public function __construct(){
-        $artistes = new ArtisteModel();
-
+        $this->artistesModels = new ArtisteModel();
     }
 	public function index(){
-        $listeArtistes = $artistes->findAll();
+
+        $listeArtistes = $this->artistesModels->findAll();
+        //dd($listeArtistes);
         /*********************************************
          * * exemple de passage de variable a une vue
          * * Data view admin artiste 
@@ -21,14 +23,38 @@ class Artistes extends BaseController
         $data = [
             'page_title' => 'Admin > Artiste Liste' ,
             'aff_menu'  => true ,
-            'couleur' => 'bleu'
+            'tableArtistes' => $listeArtistes
         ];
 
 
     echo view('common/HeaderAdmin' , 	$data);
-    echo view('Admin/Artistes', $data);
+    echo view('Admin/Artistes/Liste', $data);
     echo view('common/FooterSite');
 
     }
+    public function delete($id=null){
+        //$this->artistesModels->where('id', $id)->delete();
+       
 
+    }
+    public function edit($id=null){
+         
+        $artiste = $this->artistesModels->where('id', $id)->first();
+        /*********Je controle si je viens du formulaire ******/
+        if(!empty($this->request->getVar('save'))){
+
+        }
+       // dd($artiste);
+       $data = [
+        'page_title' => 'Admin > Artiste Edit' ,
+        'aff_menu'  => true ,
+        'artiste' => $artiste
+        
+    ];
+
+        
+    echo view('common/HeaderAdmin' , 	$data);
+    echo view('Admin/Artistes/Edit', $data);
+    echo view('common/FooterSite');
+    }
 }

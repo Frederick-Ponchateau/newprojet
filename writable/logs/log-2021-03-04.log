@@ -36,3 +36,238 @@ CRITICAL - 2021-03-04 06:54:38 --> Undefined variable: data
 #7 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #8 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
 #9 {main}
+CRITICAL - 2021-03-04 07:57:43 --> Undefined variable: artistes
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Artistes.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\fredo\\...', 16, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Artistes->index()
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Artistes))
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-04 07:57:59 --> Undefined property: App\Controllers\Admin\Artistes::$artistes
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Artistes.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\fredo\\...', 16, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Artistes->index()
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Artistes))
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-04 07:58:17 --> Undefined property: App\Controllers\Admin\Artistes::$artistes
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Artistes.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\fredo\\...', 17, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Artistes->index()
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Artistes))
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-04 07:58:58 --> Call to private App\Controllers\Admin\Artistes::__construct() from context 'CodeIgniter\CodeIgniter'
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-03-04 07:59:08 --> Call to private App\Controllers\Admin\Artistes::__construct() from context 'CodeIgniter\CodeIgniter'
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-03-04 07:59:49 --> Undefined variable: artistes
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Artistes.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\fredo\\...', 17, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Artistes->index()
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Artistes))
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-04 08:00:03 --> Undefined property: App\Controllers\Admin\Artistes::$artistes
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Artistes.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\fredo\\...', 17, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Artistes->index()
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Artistes))
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-04 08:01:05 --> Undefined property: App\Controllers\Admin\Artistes::$artistes
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Artistes.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\fredo\\...', 17, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Artistes->index()
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Artistes))
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-04 08:02:15 --> Undefined property: App\Controllers\Admin\Artistes::$artistes
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Artistes.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\fredo\\...', 19, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Artistes->index()
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Artistes))
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-04 08:02:16 --> Undefined property: App\Controllers\Admin\Artistes::$artistes
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Artistes.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\fredo\\...', 19, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Artistes->index()
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Artistes))
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-04 08:02:24 --> Undefined variable: artistes
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Artistes.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\fredo\\...', 19, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Artistes->index()
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Artistes))
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-04 08:02:36 --> Call to a member function findAll() on null
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Artistes->index()
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Artistes))
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-04 08:06:09 --> Undefined variable: artistesModels
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Artistes.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\fredo\\...', 17, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Artistes->index()
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Artistes))
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-04 08:06:18 --> Call to a member function findAll() on null
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Artistes->index()
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Artistes))
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-04 08:06:19 --> Call to a member function findAll() on null
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Artistes->index()
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Artistes))
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-04 08:44:39 --> Undefined index: anne_naissance
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Views\Admin\Artistes.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\fredo\\...', 48, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\View\View.php(220): include('C:\\Users\\fredo\\...')
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\Common.php(1217): CodeIgniter\View\View->render('Admin/Artistes', Array, true)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Artistes.php(31): view('Admin/Artistes', Array)
+#5 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Artistes->index()
+#6 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Artistes))
+#7 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-04 09:54:36 --> Undefined variable: data
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Artistes.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\fredo\\...', 45, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Artistes->edit('1')
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Artistes))
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-04 09:55:27 --> Undefined variable: data
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Artistes.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\fredo\\...', 45, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Artistes->edit('1')
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Artistes))
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-04 09:55:28 --> Undefined variable: data
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Artistes.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\fredo\\...', 45, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Artistes->edit('1')
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Artistes))
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-04 09:56:26 --> Undefined variable: data
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Artistes.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\fredo\\...', 45, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Artistes->edit('1')
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Artistes))
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-04 09:56:27 --> Undefined variable: data
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Artistes.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\fredo\\...', 45, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Artistes->edit('1')
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Artistes))
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-04 09:56:28 --> Undefined variable: data
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Artistes.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\fredo\\...', 45, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Artistes->edit('1')
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Artistes))
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-04 09:56:28 --> Undefined variable: data
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Artistes.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\fredo\\...', 45, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Artistes->edit('1')
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Artistes))
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-04 09:56:35 --> Undefined variable: data
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Artistes.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\fredo\\...', 45, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Artistes->edit('1')
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Artistes))
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-04 09:56:36 --> Undefined variable: data
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Artistes.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\fredo\\...', 45, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Artistes->edit('1')
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Artistes))
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-04 09:56:36 --> Undefined variable: data
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Artistes.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\fredo\\...', 45, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Artistes->edit('1')
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Artistes))
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-04 09:56:37 --> Undefined variable: data
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Artistes.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\fredo\\...', 45, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Artistes->edit('1')
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Artistes))
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-04 09:56:37 --> Undefined variable: data
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Artistes.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\fredo\\...', 45, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Artistes->edit('1')
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Artistes))
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-04 09:56:37 --> Undefined variable: data
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Artistes.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\fredo\\...', 45, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Artistes->edit('1')
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Artistes))
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-04 09:56:37 --> Undefined variable: data
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Artistes.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\fredo\\...', 45, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Artistes->edit('1')
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Artistes))
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-04 09:58:08 --> Undefined variable: data
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Artistes.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\fredo\\...', 45, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Artistes->edit('1')
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Artistes))
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-04 09:58:09 --> Undefined variable: data
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Artistes.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\fredo\\...', 45, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Artistes->edit('1')
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Artistes))
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-04 09:58:12 --> Undefined variable: listeArtistes
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Artistes.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\fredo\\...', 47, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Artistes->edit('1')
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Artistes))
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-04 12:26:54 --> Undefined variable: save
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Artistes.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\fredo\\...', 44, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Artistes->edit('1')
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Artistes))
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

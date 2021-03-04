@@ -35,30 +35,29 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr>
-                                        <td></td>
-                                        <td></td>                                      
-                                        <td><span class="invoice-amount">$459.30</span></td>
-                                        <td><small>12-08-19</small></td>
-                                        <td><span class="invoice-customer">Pixinvent PVT. LTD</span></td>
-                                        <td>
-                                            <span class="bullet green"></span>
-                                            <small>Technology</small>
-                                        </td>
-                                        <td>
-                                            <span class="chip lighten-5 red red-text">UNPAID</span>
-                                        </td>
-                                        <td>
-                                            <div class="invoice-action">
-                                                <a href="app-invoice-view.html" class="invoice-action-view mr-4">
-                                                    <i class="material-icons">remove_red_eye</i>
-                                                </a>
-                                                <a href="app-invoice-edit.html" class="invoice-action-edit">
-                                                    <i class="material-icons">edit</i>
-                                                </a>
-                                            </div>
-                                        </td>
-                                    </tr>                                                                                                         
+                                        <?php if(isset($tableArtistes)):
+                                            foreach($tableArtistes as $artiste):?>
+                                                <tr>
+                                                    <td></td>
+                                                    <td></td>                                      
+                                                    <td><span class="invoice-amount"><?= $artiste["id"] ?></span></td>
+                                                    <td><span class="invoice-amount"><?= $artiste["nom"] ?></span></td>
+                                                    <td><span class="invoice-customer"><?= $artiste["prenom"] ?></span></td>
+                                                    <td><span class="invoice-amount"><?= $artiste["annee_naissance"] ?></span></td>
+                                                    <td><small> 5</small></td>
+                                                    <td>
+                                                        <div class="invoice-action">
+                                                            <a href=<?= base_url("admin/artistes/edit/".$artiste["id"]) ?> class="invoice-action-edit">
+                                                                <i class="material-icons">edit</i>
+                                                            </a>
+                                                            <a href=<?= base_url("admin/artistes/delete/".$artiste["id"]) ?> class="invoice-action-view mr-4">
+                                                                <i class="material-icons">delete_sweep</i>
+                                                            </a>
+                                                        </div>
+                                                    </td>
+                                                </tr>                                                                                                         
+                                            <?php endforeach;
+                                        endif;?>
                                 </tbody>
                             </table>
                         </div>
