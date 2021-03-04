@@ -13,7 +13,7 @@ class Artistes extends BaseController
 
     }
 	public function index(){
-
+        $listeArtistes = $artistes->findAll();
         /*********************************************
          * * exemple de passage de variable a une vue
          * * Data view admin artiste 
