@@ -86,10 +86,10 @@
                     </ul>
                 </div>
             </li>
-            <li class="bold"><a class="collapsible-header waves-effect waves-cyan " href="JavaScript:void(0)"><i class="material-icons">face</i><span class="menu-title" data-i18n="User">Artistes listes</span><span class="badge badge pill purple float-right mr-10">3</span></a>
+            <li class="bold"><a class="collapsible-header waves-effect waves-cyan " href="JavaScript:void(0)"><i class="material-icons">people_outline</i><span class="menu-title" data-i18n="User">Artistes listes</span><span class="badge badge pill purple float-right mr-10">3</span></a>
                 <div class="collapsible-body">
                     <ul class="collapsible collapsible-sub" data-collapsible="accordion">
-                        <li><a href="Admin/Artislist"><i class="material-icons">radio_button_unchecked</i><span data-i18n="List">Lister</span></a> <!--  class="active"  si le lien est actif -->
+                        <li><a href=<?= base_url("admin/artistes") ?>><i class="material-icons">radio_button_unchecked</i><span data-i18n="List">Lister</span></a> <!--  class="active"  si le lien est actif -->
                         </li>
                         
                         <li><a href="page-users-edit.html"><i class="material-icons">radio_button_unchecked</i><span data-i18n="Edit">Ajouter</span></a>

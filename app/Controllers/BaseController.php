@@ -35,6 +35,9 @@ class BaseController extends Controller
 		$this->session = \Config\Services::session();
 		$this->session->start();  
 	}
+	/*****************************
+	 * * Fonction securité site
+	 *****************************/
 	public function bypass($url){
 		if(!$this->session->get('id')){
 			return redirect()->to($url);
