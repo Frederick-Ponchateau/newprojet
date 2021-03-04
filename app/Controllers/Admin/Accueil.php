@@ -26,7 +26,7 @@ class Accueil extends BaseController
 	{		
 
 		$this->bypass('/login');
-		var_dump($this->session->get('id'));
+		//var_dump($this->session->get('id'));
 		/** exemple de passage de variable a une vue */ 
 		$data = [
 			'page_title' => 'Connexion à wwww.site.com' ,

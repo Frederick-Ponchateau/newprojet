@@ -86,6 +86,17 @@
                     </ul>
                 </div>
             </li>
+            <li class="bold"><a class="collapsible-header waves-effect waves-cyan " href="JavaScript:void(0)"><i class="material-icons">face</i><span class="menu-title" data-i18n="User">Artistes listes</span><span class="badge badge pill purple float-right mr-10">3</span></a>
+                <div class="collapsible-body">
+                    <ul class="collapsible collapsible-sub" data-collapsible="accordion">
+                        <li><a href="Admin/Artislist"><i class="material-icons">radio_button_unchecked</i><span data-i18n="List">Lister</span></a> <!--  class="active"  si le lien est actif -->
+                        </li>
+                        
+                        <li><a href="page-users-edit.html"><i class="material-icons">radio_button_unchecked</i><span data-i18n="Edit">Ajouter</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
            
         </ul>
         <div class="navigation-background"></div><a class="sidenav-trigger btn-sidenav-toggle btn-floating btn-medium waves-effect waves-light hide-on-large-only" href="#" data-target="slide-out"><i class="material-icons">menu</i></a>
