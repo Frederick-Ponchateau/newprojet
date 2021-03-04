@@ -61,6 +61,7 @@ class Artistes extends BaseController
                         ->update();
                     }else{
                         $this->artistesModels->save($data_save);
+                        return redirect()->to('/Admin/Artistes');
                     }           
                 }
                 // return redirect()->to('/');

@@ -11,7 +11,7 @@
                       
                         <!-- create invoice button-->
                         <div class="invoice-create-btn">
-                            <a href="app-invoice-add.html" class="btn waves-effect waves-light invoice-create border-round z-depth-4">
+                            <a href=<?= base_url('admin/artistes/edit/')?> class="btn waves-effect waves-light invoice-create border-round z-depth-4">
                                 <i class="material-icons">add</i>
                                 <span class="hide-on-small-only">Create User</span>
                             </a>

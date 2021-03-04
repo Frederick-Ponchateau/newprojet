@@ -81,7 +81,7 @@
                         <li><a href="page-users-list.html"><i class="material-icons">radio_button_unchecked</i><span data-i18n="List">Lister</span></a> <!--  class="active"  si le lien est actif -->
                         </li>
                         
-                        <li><a href="page-users-edit.html"><i class="material-icons">radio_button_unchecked</i><span data-i18n="Edit">Ajouter</span></a>
+                        <li><a href=<?=base_url('/admin/artistes/edit') ?>><i class="material-icons">radio_button_unchecked</i><span data-i18n="Edit">Ajouter</span></a>
                         </li>
                     </ul>
                 </div>
@@ -92,7 +92,7 @@
                         <li><a href=<?= base_url("admin/artistes") ?>><i class="material-icons">radio_button_unchecked</i><span data-i18n="List">Lister</span></a> <!--  class="active"  si le lien est actif -->
                         </li>
                         
-                        <li><a href="page-users-edit.html"><i class="material-icons">radio_button_unchecked</i><span data-i18n="Edit">Ajouter</span></a>
+                        <li><a href=<?=base_url('/admin/artistes/edit') ?>><i class="material-icons">radio_button_unchecked</i><span data-i18n="Edit">Ajouter</span></a>
                         </li>
                     </ul>
                 </div>
