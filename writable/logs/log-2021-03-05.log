@@ -133,3 +133,260 @@ CRITICAL - 2021-03-05 07:37:09 --> Undefined index: page
 #7 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #8 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
 #9 {main}
+CRITICAL - 2021-03-05 08:31:53 --> Undefined property: App\Controllers\Admin\Role::$RoleModels
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Role.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\fredo\\...', 18, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Role->index()
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Role))
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-05 08:32:09 --> Undefined property: App\Controllers\Admin\Role::$RoleModel
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Role.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\fredo\\...', 18, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Role->index()
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Role))
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-05 08:32:27 --> Undefined property: App\Controllers\Admin\Role::$RoleModel
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Role.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\fredo\\...', 18, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Role->index()
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Role))
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-05 08:42:20 --> Undefined index: id
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Views\Admin\Role\Liste.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\fredo\\...', 46, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\View\View.php(220): include('C:\\Users\\fredo\\...')
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\Common.php(1217): CodeIgniter\View\View->render('Admin/Role/List...', Array, true)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Role.php(32): view('Admin/Role/List...', Array)
+#5 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Role->index()
+#6 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Role))
+#7 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-05 08:43:30 --> Undefined index: id
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Views\Admin\Role\Liste.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\fredo\\...', 46, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\View\View.php(220): include('C:\\Users\\fredo\\...')
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\Common.php(1217): CodeIgniter\View\View->render('Admin/Role/List...', Array, true)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Role.php(32): view('Admin/Role/List...', Array)
+#5 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Role->index()
+#6 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Role))
+#7 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-05 08:58:08 --> Class 'App\Models\FilmModel' not found
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(908): App\Controllers\Admin\Role->__construct()
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-05 08:58:15 --> Class 'App\Models\FilmModel' not found
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(908): App\Controllers\Admin\Role->__construct()
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-05 08:58:17 --> Class 'App\Models\FilmModel' not found
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(908): App\Controllers\Admin\Role->__construct()
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-05 08:58:17 --> Class 'App\Models\FilmModel' not found
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(908): App\Controllers\Admin\Role->__construct()
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-05 08:58:18 --> Class 'App\Models\FilmModel' not found
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(908): App\Controllers\Admin\Role->__construct()
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-05 08:58:18 --> Class 'App\Models\FilmModel' not found
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(908): App\Controllers\Admin\Role->__construct()
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-05 08:58:22 --> Class 'App\Models\FilmModel' not found
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(908): App\Controllers\Admin\Role->__construct()
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-05 08:58:27 --> Class 'App\Models\FilmModel' not found
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(908): App\Controllers\Admin\Role->__construct()
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-05 08:58:41 --> Class 'App\Models\FilmModel' not found
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(908): App\Controllers\Admin\Role->__construct()
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-05 09:00:27 --> Class 'App\Models\FilmModel' not found
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(908): App\Controllers\Admin\Role->__construct()
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-05 09:00:28 --> Class 'App\Models\FilmModel' not found
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(908): App\Controllers\Admin\Role->__construct()
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-05 09:00:28 --> Class 'App\Models\FilmModel' not found
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(908): App\Controllers\Admin\Role->__construct()
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-05 09:00:29 --> Class 'App\Models\FilmModel' not found
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(908): App\Controllers\Admin\Role->__construct()
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-05 09:00:29 --> Class 'App\Models\FilmModel' not found
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(908): App\Controllers\Admin\Role->__construct()
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-05 09:00:29 --> Class 'App\Models\FilmModel' not found
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(908): App\Controllers\Admin\Role->__construct()
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-05 09:00:29 --> Class 'App\Models\FilmModel' not found
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(908): App\Controllers\Admin\Role->__construct()
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-05 09:00:46 --> Class 'App\Models\FilmModel' not found
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(908): App\Controllers\Admin\Role->__construct()
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-05 09:02:51 --> Class 'App\Models\FilmModel' not found
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(908): App\Controllers\Admin\Role->__construct()
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-05 09:11:51 --> Undefined index: id_film
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Role.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\fredo\\...', 24, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Role->index()
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Role))
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-05 09:12:20 --> Undefined variable: filmRole
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Role.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\fredo\\...', 25, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Role->index()
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Role))
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-05 09:20:03 --> Array to string conversion
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Role.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\Users\\fredo\\...', 34, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Role->index()
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Role))
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-05 09:21:30 --> Undefined variable: tablefilm
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Views\Admin\Role\Liste.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\fredo\\...', 38, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\View\View.php(220): include('C:\\Users\\fredo\\...')
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\Common.php(1217): CodeIgniter\View\View->render('Admin/Role/List...', Array, true)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Role.php(40): view('Admin/Role/List...', Array)
+#5 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Role->index()
+#6 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Role))
+#7 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-05 09:23:11 --> Undefined index: id
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Views\Admin\Role\Liste.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\fredo\\...', 38, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\View\View.php(220): include('C:\\Users\\fredo\\...')
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\Common.php(1217): CodeIgniter\View\View->render('Admin/Role/List...', Array, true)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Role.php(40): view('Admin/Role/List...', Array)
+#5 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Role->index()
+#6 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Role))
+#7 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-05 09:23:50 --> Undefined index: id
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Views\Admin\Role\Liste.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\fredo\\...', 38, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\View\View.php(220): include('C:\\Users\\fredo\\...')
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\Common.php(1217): CodeIgniter\View\View->render('Admin/Role/List...', Array, true)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Role.php(40): view('Admin/Role/List...', Array)
+#5 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Role->index()
+#6 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Role))
+#7 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-05 09:36:40 --> Undefined variable: filmModel
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Views\Admin\Role\Liste.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\fredo\\...', 38, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\View\View.php(220): include('C:\\Users\\fredo\\...')
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\Common.php(1217): CodeIgniter\View\View->render('Admin/Role/List...', Array, true)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Role.php(40): view('Admin/Role/List...', Array)
+#5 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Role->index()
+#6 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Role))
+#7 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-05 09:37:35 --> Call to a member function where() on array
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\View\View.php(220): include()
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\Common.php(1217): CodeIgniter\View\View->render('Admin/Role/List...', Array, true)
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Role.php(40): view('Admin/Role/List...', Array)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Role->index()
+#5 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Role))
+#6 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-05 09:37:43 --> Call to a member function where() on array
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\View\View.php(220): include()
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\Common.php(1217): CodeIgniter\View\View->render('Admin/Role/List...', Array, true)
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Role.php(40): view('Admin/Role/List...', Array)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Role->index()
+#5 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Role))
+#6 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-05 09:37:44 --> Call to a member function where() on array
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\View\View.php(220): include()
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\Common.php(1217): CodeIgniter\View\View->render('Admin/Role/List...', Array, true)
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Role.php(40): view('Admin/Role/List...', Array)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Role->index()
+#5 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Role))
+#6 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-05 09:40:46 --> Array to string conversion
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Views\Admin\Role\Liste.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\Users\\fredo\\...', 40, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\View\View.php(220): include('C:\\Users\\fredo\\...')
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\Common.php(1217): CodeIgniter\View\View->render('Admin/Role/List...', Array, true)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Role.php(40): view('Admin/Role/List...', Array)
+#5 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Role->index()
+#6 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Role))
+#7 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
