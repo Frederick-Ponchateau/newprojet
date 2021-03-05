@@ -50,9 +50,15 @@
                                                             <a href=<?= base_url("admin/artistes/edit/".$artiste["id"]) ?> class="invoice-action-edit">
                                                                 <i class="material-icons">edit</i>
                                                             </a>
-                                                            <a href=<?= base_url("admin/artistes/delete/".$artiste["id"]) ?> class="invoice-action-view mr-4">
+                                                            <?php if(!empty($_GET['page'])){ ?>
+                                                            <a href=<?= base_url("admin/artistes/delete/".$artiste["id"]."/".$_GET['page']) ?> class="invoice-action-view mr-4">
                                                                 <i class="material-icons">delete_sweep</i>
                                                             </a>
+                                                            <?php }else{?>
+                                                                <a href=<?= base_url("admin/artistes/delete/".$artiste["id"]) ?> class="invoice-action-view mr-4">
+                                                                <i class="material-icons">delete_sweep</i>
+                                                            </a>
+                                                        <?php } ?>
                                                         </div>
                                                     </td>
                                                 </tr>                                                                                                         
@@ -60,6 +66,7 @@
                                         endif;?>
                                 </tbody>
                             </table>
+                             <?= $pager->links() ;?>
                         </div>
                     </section>
                 </div>

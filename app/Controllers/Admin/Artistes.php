@@ -23,18 +23,21 @@ class Artistes extends BaseController
         $data = [
             'page_title' => 'Admin > Artiste Liste' ,
             'aff_menu'  => true ,
-            'tableArtistes' => $listeArtistes
+            'tableArtistes' => $this->artistesModels->orderBy('id','DESC')->paginate(10),
+            'pager' => $this->artistesModels->pager,
         ];
-
 
     echo view('common/HeaderAdmin' , 	$data);
     echo view('Admin/Artistes/Liste', $data);
     echo view('common/FooterSite');
 
     }
-    public function delete($id=null){
-        //$this->artistesModels->where('id', $id)->delete();
-       
+    public function delete($id=null,$page=null){
+        $this->artistesModels->where('id', $id)->delete();
+        if(!empty($page)){
+            return redirect()->to('/Admin/Artistes?page='.$page);
+        }
+        return redirect()->to('/Admin/Artistes');
 
     }
     public function edit($id=null){

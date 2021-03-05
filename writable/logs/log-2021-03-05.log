@@ -1,0 +1,135 @@
+CRITICAL - 2021-03-05 06:18:21 --> Invalid file: artistes/index.php
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('artistes/index....')
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\Common.php(1217): CodeIgniter\View\View->render('artistes/index', Array, true)
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Artistes.php(31): view('artistes/index', Array)
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Artistes->index()
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Artistes))
+#5 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-05 06:18:28 --> Invalid file: artistes/index.php
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('artistes/index....')
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\Common.php(1217): CodeIgniter\View\View->render('artistes/index', Array, true)
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Artistes.php(31): view('artistes/index', Array)
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Artistes->index()
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Artistes))
+#5 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-05 06:19:08 --> Invalid file: artistes/index.php
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('artistes/index....')
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\Common.php(1217): CodeIgniter\View\View->render('artistes/index', Array, true)
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Artistes.php(31): view('artistes/index', Array)
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Artistes->index()
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Artistes))
+#5 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-05 06:19:09 --> Invalid file: artistes/index.php
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('artistes/index....')
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\Common.php(1217): CodeIgniter\View\View->render('artistes/index', Array, true)
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Artistes.php(31): view('artistes/index', Array)
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Artistes->index()
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Artistes))
+#5 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-05 06:19:31 --> Invalid file: admin/artistes/index.php
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/artistes/...')
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\Common.php(1217): CodeIgniter\View\View->render('admin/artistes/...', Array, true)
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Artistes.php(31): view('admin/artistes/...', Array)
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Artistes->index()
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Artistes))
+#5 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-05 06:19:32 --> Invalid file: admin/artistes/index.php
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/artistes/...')
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\Common.php(1217): CodeIgniter\View\View->render('admin/artistes/...', Array, true)
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Artistes.php(31): view('admin/artistes/...', Array)
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Artistes->index()
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Artistes))
+#5 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-05 06:39:45 --> Call to a member function paginate() on array
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Artistes->index()
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Artistes))
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-05 07:32:02 --> Call to undefined function request()
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\View\View.php(220): include()
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\Common.php(1217): CodeIgniter\View\View->render('Admin/Artistes/...', Array, true)
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Artistes.php(32): view('Admin/Artistes/...', Array)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Artistes->index()
+#5 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Artistes))
+#6 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-05 07:32:16 --> Call to undefined function request()
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\View\View.php(220): include()
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\Common.php(1217): CodeIgniter\View\View->render('Admin/Artistes/...', Array, true)
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Artistes.php(32): view('Admin/Artistes/...', Array)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Artistes->index()
+#5 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Artistes))
+#6 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-05 07:32:32 --> Undefined variable: request
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Views\Admin\Artistes\Liste.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\fredo\\...', 64, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\View\View.php(220): include('C:\\Users\\fredo\\...')
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\Common.php(1217): CodeIgniter\View\View->render('Admin/Artistes/...', Array, true)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Artistes.php(32): view('Admin/Artistes/...', Array)
+#5 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Artistes->index()
+#6 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Artistes))
+#7 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-05 07:32:39 --> Undefined variable: request
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Views\Admin\Artistes\Liste.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\fredo\\...', 64, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\View\View.php(220): include('C:\\Users\\fredo\\...')
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\Common.php(1217): CodeIgniter\View\View->render('Admin/Artistes/...', Array, true)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Artistes.php(32): view('Admin/Artistes/...', Array)
+#5 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Artistes->index()
+#6 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Artistes))
+#7 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-05 07:35:21 --> Undefined index: page
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Views\Admin\Artistes\Liste.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\fredo\\...', 53, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\View\View.php(220): include('C:\\Users\\fredo\\...')
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\Common.php(1217): CodeIgniter\View\View->render('Admin/Artistes/...', Array, true)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Artistes.php(32): view('Admin/Artistes/...', Array)
+#5 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Artistes->index()
+#6 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Artistes))
+#7 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-05 07:35:57 --> Undefined index: page
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Views\Admin\Artistes\Liste.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\fredo\\...', 53, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\View\View.php(220): include('C:\\Users\\fredo\\...')
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\Common.php(1217): CodeIgniter\View\View->render('Admin/Artistes/...', Array, true)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Artistes.php(32): view('Admin/Artistes/...', Array)
+#5 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Artistes->index()
+#6 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Artistes))
+#7 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-05 07:37:09 --> Undefined index: page
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Views\Admin\Artistes\Liste.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\fredo\\...', 53, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\View\View.php(220): include('C:\\Users\\fredo\\...')
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\Common.php(1217): CodeIgniter\View\View->render('Admin/Artistes/...', Array, true)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Artistes.php(32): view('Admin/Artistes/...', Array)
+#5 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Artistes->index()
+#6 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Artistes))
+#7 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
