@@ -48,15 +48,15 @@
                                                     <td><span class="invoice-customer"><?= $role["nom_role"] ?></span></td>
                                                     <td>
                                                         <div class="invoice-action">
-                                                            <a href=<?= base_url("Admin/Role/Edit/".$role["id_film"]) ?> class="invoice-action-edit">
+                                                            <a href=<?= base_url("Admin/Role/Edit/".$role["id_film"]."/".$role["id_acteur"]) ?> class="invoice-action-edit">
                                                                 <i class="material-icons">edit</i>
                                                             </a>
                                                             <?php if(!empty($_GET['page'])){ ?>
-                                                            <a href=<?= base_url("admin/role/delete/".$role["id_film"]."/".$_GET['page']) ?> class="invoice-action-view mr-4">
+                                                            <a href=<?= base_url("admin/role/delete/".$role["id_film"]."/".$role["id_acteur"]."/".$_GET['page']) ?> class="invoice-action-view mr-4">
                                                                 <i class="material-icons">delete_sweep</i>
                                                             </a>
                                                             <?php }else{?>
-                                                                <a href=<?= base_url("admin/role/delete/".$role["id_film"]) ?> class="invoice-action-view mr-4">
+                                                                <a href=<?= base_url("admin/role/delete/".$role["id_film"]."/".$role["id_acteur"]) ?> class="invoice-action-view mr-4">
                                                                 <i class="material-icons">delete_sweep</i>
                                                             </a>
                                                         <?php } ?>

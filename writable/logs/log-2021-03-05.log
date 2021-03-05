@@ -390,3 +390,100 @@ CRITICAL - 2021-03-05 09:40:46 --> Array to string conversion
 #7 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #8 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
 #9 {main}
+CRITICAL - 2021-03-05 09:56:22 --> Undefined property: App\Controllers\Admin\Role::$artistesModels
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Role.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\fredo\\...', 74, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Role->edit('32')
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Role))
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-05 09:59:20 --> syntax error, unexpected '?>', expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Admin/Role/Edit...')
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Admin/Role/Edit...')
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-05 10:04:44 --> Undefined variable: data
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Role.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\fredo\\...', 84, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Role->edit('32')
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Role))
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-05 10:04:45 --> Undefined variable: data
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Role.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\fredo\\...', 84, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Role->edit('32')
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Role))
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-05 10:13:52 --> Undefined variable: id
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Role.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\fredo\\...', 74, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Role->edit('32')
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Role))
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-05 10:18:27 --> Undefined variable: artiste
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Role.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\fredo\\...', 81, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Role->edit('32')
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Role))
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-05 10:18:37 --> Undefined variable: role
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Views\Admin\Role\Edit.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\fredo\\...', 18, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\View\View.php(220): include('C:\\Users\\fredo\\...')
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\Common.php(1217): CodeIgniter\View\View->render('Admin/Role/Edit', Array, true)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Role.php(87): view('Admin/Role/Edit', Array)
+#5 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Role->edit('32')
+#6 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Role))
+#7 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-05 10:19:53 --> Undefined variable: artiste
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Views\Admin\Role\Edit.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\fredo\\...', 30, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\View\View.php(220): include('C:\\Users\\fredo\\...')
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\Common.php(1217): CodeIgniter\View\View->render('Admin/Role/Edit', Array, true)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Role.php(87): view('Admin/Role/Edit', Array)
+#5 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Role->edit('32')
+#6 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Role))
+#7 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-05 10:22:45 --> Undefined variable: artiste
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Views\Admin\Role\Edit.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\fredo\\...', 44, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\View\View.php(220): include('C:\\Users\\fredo\\...')
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\Common.php(1217): CodeIgniter\View\View->render('Admin/Role/Edit', Array, true)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Role.php(87): view('Admin/Role/Edit', Array)
+#5 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Role->edit('32')
+#6 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Role))
+#7 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-05 10:22:50 --> Undefined variable: artiste
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Views\Admin\Role\Edit.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\fredo\\...', 44, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\View\View.php(220): include('C:\\Users\\fredo\\...')
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\Common.php(1217): CodeIgniter\View\View->render('Admin/Role/Edit', Array, true)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Role.php(87): view('Admin/Role/Edit', Array)
+#5 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Role->edit('index.html')
+#6 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Role))
+#7 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-05 10:22:50 --> Undefined variable: artiste
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Views\Admin\Role\Edit.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\fredo\\...', 44, Array)
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\View\View.php(220): include('C:\\Users\\fredo\\...')
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\Common.php(1217): CodeIgniter\View\View->render('Admin/Role/Edit', Array, true)
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Role.php(87): view('Admin/Role/Edit', Array)
+#5 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Role->edit('index.html')
+#6 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Role))
+#7 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

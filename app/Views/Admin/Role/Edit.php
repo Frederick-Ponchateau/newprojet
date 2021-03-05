@@ -15,7 +15,7 @@
                                     <div id="validation" class="card card card-default scrollspy">
                                         <div class="card-content">
                                             <h4 class="card-title">Form with validation</h4>
-                                            <form action="<?= base_url('admin/role/edit/'.$role['id_film'])  ?>" method= "Post">
+                                            <form action="<?= base_url('admin/role/edit/')  ?>" method= "Post">
                                                 <!-- Je cache mon champ(hidden) pour dire que je suis dans le mode modifier -->
                                                 <!-- je modifie -->
                                                 <?php if(isset($role['id_film'])){   ?>
@@ -27,14 +27,14 @@
                                                 <div class="row">
                                                     <div class="input-field col s12">
                                                         <i class="material-icons prefix">account_circle</i>
-                                                        <input id="name" type="text" name="nomFilm" value="<?= $artiste["nom"]?>" class="validate">
+                                                        <input id="name" type="text" name="nomFilm" value="" class="validate">
                                                         <label for="name">Name Film</label>
                                                     </div>
                                                 </div>
                                                 <div class="row">
                                                     <div class="input-field col s12">
                                                         <i class="material-icons prefix">text</i>
-                                                        <input id= "prenom" value= "<?= $artiste["prenom"]?>" name="prenom" type="text" class="validate">
+                                                        <input id= "prenom" value= "" name="prenom" type="text" class="validate">
                                                         <label for="prenom">Prenom</label>
                                                     </div>
                                                 </div>
