@@ -15,7 +15,7 @@
                                     <div id="validation" class="card card card-default scrollspy">
                                         <div class="card-content">
                                             <h4 class="card-title">Form with validation</h4>
-                                            <form action="<?= base_url('admin/artistes/edit/'.$artiste['id'])  ?>" method= "Post">
+                                            <form action="<?= base_url('admin/artistes/edit/'.$artiste['id'])  ?>" method= "Post"enctype="multipart/form-data">
                                                 <!-- Je cache mon champ(hidden) pour dire que je suis dans le mode modifier -->
                                                 <!-- je modifie -->
                                                 <?php if(isset($artiste["id"])){   ?>
@@ -43,6 +43,15 @@
                                                         <i class="material-icons prefix">lock_outline</i>
                                                         <input id= "annee" value= "<?= $artiste["annee_naissance"]?>" name="annee" type="number" class="validate">
                                                         <label for="annee">Anne naissance</label>
+                                                    </div>
+                                                </div>
+                                                 <!--Default version-->
+                                                <div class="row section">
+                                                    <div class="col s12 m4 l3">
+                                                        <p>Ajouter une image</p>
+                                                    </div>
+                                                    <div class="col s12 m8 l9">
+                                                        <input type="file" id="input-file-now" name='image' class="dropify" data-default-file="" />
                                                     </div>
                                                 </div>
                                                 <div class="row">

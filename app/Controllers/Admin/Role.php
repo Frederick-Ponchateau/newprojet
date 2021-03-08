@@ -79,11 +79,21 @@ class Role extends BaseController{
                     ];
                     //var_dump($data_save);
                     if($save == 'update'){
+                        $file = $this->request->getFile('image');
+                        $newName = $file->getRandomName();
+                         $file->move(ROOTPATH."public/app-assets/images",$newName);
+                         if($file){
+                             
+                             $data_save["image"]= $newName;
+                             //dd($data_save);
+                            }
                        $andAdd= [
                         'id_film'     => intval($idFilm),
                         'id_acteur'    => intval($idActeur)
                        ];
-                     //dd($andAdd);
+                        //dd($file);
+                        //dd($andAdd);
+
                        $test=  $this->roleModel->where($andAdd)
                         ->set($data_save)
                         ->update();

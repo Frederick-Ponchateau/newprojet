@@ -59,6 +59,13 @@ class Artistes extends BaseController
                         'annee_naissance' => $this->request->getVar('annee')
                     ];
                     if($save == 'update'){
+                        $file = $this->request->getFile('image');
+                        $newName = $file->getRandomName();
+                        
+                        $file->move(ROOTPATH."public/app-assets/images",$newName);
+                        if($file){
+                            $data_save["image"]= $newName;
+                        }
                         $this->artistesModels->where('id',$id)
                         ->set($data_save)
                         ->update();
