@@ -11,7 +11,7 @@
                       
                         <!-- create invoice button-->
                         <div class="invoice-create-btn">
-                            <a href=<?= base_url('admin/Role/edit/')?> class="btn waves-effect waves-light invoice-create border-round z-depth-4">
+                            <a href=<?= base_url('admin/role/edit/')?> class="btn waves-effect waves-light invoice-create border-round z-depth-4">
                                 <i class="material-icons">add</i>
                                 <span class="hide-on-small-only">Create Role</span>
                             </a>
@@ -34,9 +34,9 @@
                                 </thead>
                                 <tbody>
                                         <?php if(isset($tablerole)):
-                                            foreach($tablerole as $role):?>
-                                                <!-- On selectionne la ligne correspondant a l'ID du film -->
-                                                <?php $film = $tableFilm->where('id',$role["id_film"])->first() ;
+                                            foreach($tablerole as $role):
+                                                /********* On selectionne la ligne correspondant a l'ID du film  ********/
+                                                 $film = $tableFilm->where('id',$role["id_film"])->first() ;
                                                 /* *****On selectionne la ligne correspondant a l'ID de l'acteur***** */
                                                 $acteur= $tableArtiste->where('id',$role["id_acteur"])->first();  
                                                 //dd($acteur["nom"]." ".$acteur["prenom"])?>
@@ -48,7 +48,7 @@
                                                     <td><span class="invoice-customer"><?= $role["nom_role"] ?></span></td>
                                                     <td>
                                                         <div class="invoice-action">
-                                                            <a href=<?= base_url("Admin/Role/Edit/".$role["id_film"]."/".$role["id_acteur"]) ?> class="invoice-action-edit">
+                                                            <a href=<?= base_url("Admin/role/Edit/".$role["id_film"]."/".$role["id_acteur"]) ?> class="invoice-action-edit">
                                                                 <i class="material-icons">edit</i>
                                                             </a>
                                                             <?php if(!empty($_GET['page'])){ ?>

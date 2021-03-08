@@ -1,8 +1,8 @@
 <?php
 
 namespace App\Controllers\Admin;
-
 use CodeIgniter\Controller;
+/******************* Appel des model utilisé ******************/
 use App\Models\RoleModel;
 use App\Models\ArtistesModel;
 use App\Models\FilmModel;
@@ -10,7 +10,7 @@ use App\Controllers\BaseController;
 
 class Role extends BaseController{
     public $roleModel = null;
-    public $filmMode = null;
+    public $filmModel = null;
     public $artistesModel = null;
     public function __construct(){
         $this->roleModel = new RoleModel();
@@ -41,46 +41,77 @@ class Role extends BaseController{
     echo view('common/FooterSite');
 
     }
+    public function delete($idFilm=null,$idActeur=null,$page=null){
+        $and = [ 
+            'id_film' => $idFilm,
+            'id_acteur' => $idActeur  
+        ];
+        $this->roleModel->where($and)->delete();
+        if(!empty($page)){
+            return redirect()->to('/Admin/Role?page='.$page);
+        }
+        return redirect()->to('/Admin/Role');
+
+    }
 
     public function edit($idFilm=null,$idActeur=null){
+
+
         /*********Je controle si je viens du formulaire ******/
         if(!empty($this->request->getVar('save'))){
+
             $save = $this->request->getVar('save');
-                $rules = [
-                    'nom'          => 'required|min_length[3]|max_length[20]',
-                    'prenom'         => 'required|min_length[3]|max_length[20]',
-                    'annee'      => 'required'
-                ];
+
+                 $rules = [
+                     'idFilm'          => 'required',
+                     'idActeur'         => 'required',
+                    'nomRole'      => 'required'
+                 ];
+                
                 /**************** Je controle si les informations posté son corecte ***********************
                  **************** Pour nom la longueur minimal est de 3 et la longueur maximal est de 20 caractère requit */
                 if($this->validate($rules)){
                     
-                    $data_save = [
-                        'nom'     => $this->request->getVar('nom'),
-                        'prenom'    => $this->request->getVar('prenom'),
-                        'annee_naissance' => $this->request->getVar('annee')
+                     $data_save = [
+                        'id_film'     => intval($this->request->getVar('idFilm')),
+                        'id_acteur'    => intval($this->request->getVar('idActeur')),
+                        'nom_role' => $this->request->getVar('nomRole')
                     ];
+                    //var_dump($data_save);
                     if($save == 'update'){
-                        $this->roleModel->where('id',$id)
+                       $andAdd= [
+                        'id_film'     => intval($idFilm),
+                        'id_acteur'    => intval($idActeur)
+                       ];
+                     //dd($andAdd);
+                       $test=  $this->roleModel->where($andAdd)
                         ->set($data_save)
                         ->update();
-                    }else{
+                        
+                     }else{
                         $this->roleModel->save($data_save);
                         return redirect()->to('/Admin/Role');
                     }           
                 }
-                // return redirect()->to('/');
+                return redirect()->to('/Admin/Role');
         }
-        // $role = $this->roleModel->where('id', $id)->first();
-        // $role = $this->roleModel->where('id', $id)->first();
-        // $role = $this->roleModel->where('id', $id)->first();
-       // dd($artiste);
+        $and = [ 
+            'id_film' => $idFilm,
+            'id_acteur' => $idActeur  
+        ];
+        $listeRole = $this->roleModel->where($and)->first();
+        $filmModel = $this->filmModel->orderBy('titre','ASC')->findAll();
+        $artistesModel= $this->artistesModel->orderBy('nom','ASC')->findAll();
+        
        $data = [
         'page_title' => 'Admin > Artiste Edit' ,
         'aff_menu'  => true ,
-        //'artiste' => $artiste
+        'modelFilm' => $filmModel,
+        'modelArtiste' => $artistesModel,
+        'tablerole' =>  $listeRole,
         
-    ];
+        
+        ];
 
         
     echo view('common/HeaderAdmin' , 	$data);
