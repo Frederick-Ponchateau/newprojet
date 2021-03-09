@@ -180,13 +180,13 @@
                             </li>
                         </ol>
                     </div>
-                    <div class="col s2 m6 l6"><a class="btn btn-floating dropdown-settings waves-effect waves-light breadcrumbs-btn right" href="#!" data-target="dropdown1"><i class="material-icons">expand_more </i><i class="material-icons right">arrow_drop_down</i></a>
+                    <div class="col s2 m6 l6"><a class="btn dropdown-settings waves-effect waves-light breadcrumbs-btn right" href="#!" data-target="dropdown1"><i class="material-icons hide-on-med-and-up">Categorie</i><span class="hide-on-small-onl">Categorie</span><i class="material-icons right">arrow_drop_down</i></a>
                         <ul class="dropdown-content" id="dropdown1" tabindex="0">
-                            <li tabindex="0"><a class="grey-text text-darken-2" href="user-profile-page.html">Profile<span class="new badge red">2</span></a></li>
-                            <li tabindex="0"><a class="grey-text text-darken-2" href="app-contacts.html">Contacts</a></li>
-                            <li tabindex="0"><a class="grey-text text-darken-2" href="page-faq.html">FAQ</a></li>
-                            <li class="divider" tabindex="-1"></li>
-                            <li tabindex="0"><a class="grey-text text-darken-2" href="user-login.html">Logout</a></li>
+                          <?php if(isset($tableGenre)):  
+                                foreach($tableGenre as $genre):?>
+                            <li tabindex="0"><a class="grey-text text-darken-2" href="<?= base_url("/home/index/genre/".$genre["code"]) ?>"><?= $genre['code']  ?></a></li>
+                          <?php  endforeach;
+                             endif; ?>
                         </ul>
                     </div>
                 </div>
@@ -232,7 +232,7 @@
                                 <a href="#"><span class="material-icons ">date_range</span></a>
                                 <span class=" vertical-align-top"><?= $film['annee'] ?></span>
                               </div>
-                              <a href="#">
+                              <a href="<?= base_url("/home/index/realisateur/".$film["id_realisateur"]) ?>">
                                 <div class="col s12 right-align"><span class="pt-2"><?=  $acteur['nom']." ".$acteur['prenom'] ?></span></div>
                               </a>
 

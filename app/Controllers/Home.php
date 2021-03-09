@@ -20,12 +20,29 @@ class Home extends BaseController
         $this->artistesModel = new ArtistesModel();
 		$this->genreModel = new GenreModel();
     }
-	public function index()
+	public function index($typeSearch=null,$elementSearch=null)
 	{
+		$searchFilm = $this->filmModel->orderBy('id','DESC')->paginate(12);
 		$listeRole = $this->roleModel;
         $filmModel = $this->filmModel->findAll();
         $artistesModel= $this->artistesModel;
-		$genreModel = $this->genreModel;
+		$genreModel = $this->genreModel->findAll();
+		
+		if(!empty($typeSearch) && !empty($elementSearch)){
+			switch($typeSearch){
+				
+				case "realisateur": 
+					$searchFilm = $this->filmModel->where('id_realisateur',$elementSearch)->orderBy('id','DESC')->paginate(12);
+				break;
+				
+				case "genre" : 
+					$searchFilm = $this->filmModel->where('genre',$elementSearch)->orderBy('genre','DESC')->paginate(12);	
+				break;
+				default;
+			}
+			
+			
+		}
 		/*********************************************
          * * exemple de passage de variable a une vue
          * * Data view admin artiste 
@@ -34,7 +51,7 @@ class Home extends BaseController
             'page_title' => 'Admin > Role Liste' ,
             'aff_menu'  => true ,
             'tablerole' =>	$listeRole,
-            'tableFilm' =>  $this->filmModel->orderBy('id','DESC')->paginate(12),
+            'tableFilm' =>  $searchFilm,
             'tableArtiste' => $artistesModel,
 			'tableGenre' => $genreModel,
             'pager' => $this->filmModel->pager,
