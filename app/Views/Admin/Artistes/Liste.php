@@ -31,6 +31,7 @@
                                         <th>Prenom</th>
                                         <th>Annee naissance</th>
                                         <th>Nombres de film</th>
+                                        <th>Image</th>
                                         <th>Action</th>
                                     </tr>
                                 </thead>
@@ -45,6 +46,12 @@
                                                     <td><span class="invoice-customer"><?= $artiste["prenom"] ?></span></td>
                                                     <td><span class="invoice-amount"><?= $artiste["annee_naissance"] ?></span></td>
                                                     <td><small> 5</small></td>
+                                                    <?php if($artiste["image"]){ ?>
+                                                        <td><img src=<?="/app-assets/images/min/".$artiste["image"]?> alt="mon image" class="circle" /></td>
+                                                    <?php }else{ ?>
+                                                        <td><img src=<?="/app-assets/images/default.jpg"?> alt="mon image" class="circle" /></td>
+                                                    <?php } ?>
+
                                                     <td>
                                                         <div class="invoice-action">
                                                             <a href=<?= base_url("admin/artistes/edit/".$artiste["id"]) ?> class="invoice-action-edit">

@@ -65,7 +65,13 @@ class Artistes extends BaseController
                         $file->move(ROOTPATH."public/app-assets/images",$newName);
                         if($file){
                             $data_save["image"]= $newName;
+                            /****************** Réalisation de la miniature ************/
+                            $image = \Config\Services::image()
+                            ->withFile("public/app-assets/images".$newName)
+                            ->fit(100, 100, 'center')
+                            ->save("public/app-assets/images/min".$newName);
                         }
+
                         $this->artistesModels->where('id',$id)
                         ->set($data_save)
                         ->update();
