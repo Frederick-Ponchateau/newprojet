@@ -36,8 +36,17 @@ class Home extends BaseController
 				break;
 				
 				case "genre" : 
-					$searchFilm = $this->filmModel->where('genre',$elementSearch)->orderBy('genre','DESC')->paginate(12);	
+					$searchFilm = $this->filmModel->where('genre',$elementSearch)->orderBy('id','DESC')->paginate(12);	
 				break;
+
+				case "pays" : 
+					$searchFilm = $this->filmModel->where('code_pays',$elementSearch)->orderBy('id','DESC')->paginate(12);
+				break;
+
+				case "annee" :
+					$searchFilm = $this->filmModel->where('annee',$elementSearch)->orderBy('id','DESC')->paginate(12);
+				break;
+				
 				default;
 			}
 			

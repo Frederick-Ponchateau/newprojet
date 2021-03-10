@@ -214,23 +214,23 @@
                           $acteur= $tableArtiste->where('id',$film["id_realisateur"])->first();?>
                           <div class="col s12 m6 l4 card-width">
                           <div class="card-panel border-radius-6 mt-10 card-animation-1">
-                            <img class="responsive-img border-radius-8 z-depth-4 image-n-margin"
+                           <a href="/app-assets/images/default.jpg" class="mt-5"> <img class="responsive-img border-radius-8 z-depth-4 image-n-margin"
                               src="app-assets/images/default.jpg" alt="images" />
-                            <h6><a href="#" class="mt-5"><?= $film['titre'] ?></a></h6>
+                            <h6><?= $film['titre'] ?></h6></a>
                             <p><?= substr($film['resume'],0,40)?>...</p>
                             <div class="row mt-4">
                               
                               <div class="col s12 ">
-                                <a href="#"><span class="material-icons ">label_outline</span></a>
-                                <span class=" vertical-align-top"><?= $film['genre'] ?></span>
+                                <a href="<?= base_url("/home/index/genre/".$film["genre"]) ?>"><span class="material-icons ">label_outline</span>
+                                <span class=" vertical-align-top"><?= $film['genre'] ?></span></a>
                               </div>
                               <div class="col s12">
-                                <a href="#"><span class="material-icons ">language</span></a>
-                                <span class=" vertical-align-top"><?= $film['code_pays'] ?></span>
+                                <a href="<?= base_url("/home/index/pays/".$film["code_pays"]) ?>"><span class="material-icons ">language</span>
+                                <span class=" vertical-align-top"><?= $film['code_pays'] ?></span></a>
                               </div>
                               <div class="col s12 ">
-                                <a href="#"><span class="material-icons ">date_range</span></a>
-                                <span class=" vertical-align-top"><?= $film['annee'] ?></span>
+                                <a href="<?= base_url("/home/index/annee/".$film["annee"]) ?>"><span class="material-icons ">date_range</span>
+                                <span class=" vertical-align-top"><?= $film['annee'] ?></span></a>
                               </div>
                               <a href="<?= base_url("/home/index/realisateur/".$film["id_realisateur"]) ?>">
                                 <div class="col s12 right-align"><span class="pt-2"><?=  $acteur['nom']." ".$acteur['prenom'] ?></span></div>
