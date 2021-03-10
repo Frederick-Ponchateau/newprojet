@@ -1,0 +1,27 @@
+CRITICAL - 2021-03-10 05:55:23 --> File not found: public/app-assets/images1615377323_97c66b61b28fb3b4f3b3.jpg
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\Files\File.php(51): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('public/app-asse...')
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\Images\Handlers\BaseHandler.php(154): CodeIgniter\Files\File->__construct('public/app-asse...', true)
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Artistes.php(70): CodeIgniter\Images\Handlers\BaseHandler->withFile('public/app-asse...')
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Artistes->edit('224')
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Artistes))
+#5 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-10 05:59:30 --> File not found: public/app-assets/images1615377570_d0c5249a082ec491dbed.jpg
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\Files\File.php(51): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('public/app-asse...')
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\Images\Handlers\BaseHandler.php(154): CodeIgniter\Files\File->__construct('public/app-asse...', true)
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Artistes.php(70): CodeIgniter\Images\Handlers\BaseHandler->withFile('public/app-asse...')
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Artistes->edit('224')
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Artistes))
+#5 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-10 06:01:05 --> File not found: public/app-assets/images/1615377665_527c08589427b9a6c484.jpg
+#0 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\Files\File.php(51): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('public/app-asse...')
+#1 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\Images\Handlers\BaseHandler.php(154): CodeIgniter\Files\File->__construct('public/app-asse...', true)
+#2 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\app\Controllers\Admin\Artistes.php(70): CodeIgniter\Images\Handlers\BaseHandler->withFile('public/app-asse...')
+#3 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(936): App\Controllers\Admin\Artistes->edit('224')
+#4 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Artistes))
+#5 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\fredo\Documents\PROJET\frameworkCI\adminCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
