@@ -29,6 +29,7 @@ class Home extends BaseController
 		$genreModel = $this->genreModel->findAll();
 		
 		if(!empty($typeSearch) && !empty($elementSearch)){
+			//dd($this->request->getvar('search'));
 			switch($typeSearch){
 				
 				case "realisateur": 
@@ -36,6 +37,7 @@ class Home extends BaseController
 				break;
 				
 				case "genre" : 
+					/********************** Utiliser la fonction lower ou ucase pour convertir en majuscule ou en minuscule ****************/
 					$searchFilm = $this->filmModel->where('genre',$elementSearch)->orderBy('id','DESC')->paginate(12);	
 				break;
 
@@ -46,7 +48,14 @@ class Home extends BaseController
 				case "annee" :
 					$searchFilm = $this->filmModel->where('annee',$elementSearch)->orderBy('id','DESC')->paginate(12);
 				break;
-				
+				case "recherche" :
+					$searchFilm = $this->filmModel
+					->like('titre',$elementSearch,'both',null,true)
+					->orlike('resume',$elementSearch,'both',null,true)
+					->orderBy('id','DESC')->paginate(12);
+
+					break;
+
 				default;
 			}
 			
